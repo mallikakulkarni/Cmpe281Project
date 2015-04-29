@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Cmpe281projectDetails</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />    
+    	        <link href="../../css/AdminLTE.css" rel="stylesheet" type="text/css" />
+    	
+    <script>
+    function validateForm() {
+    	
+       
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   </script>
+    
+    
+    </head>
+<body class="bg-black">
+
+        <div class="form-box" id="login-box">
+      
+            <div class="header">Enter Project Details</div>
+             <form action="#" name="myForm" onsubmit="return validateForm()" th:action="@{/cmpe281project/create}" method="get">
+                <div class="body bg-gray">
+                    <div class="form-group">
+                        <input type="text" name="projectname" class="form-control" placeholder="ProjectName"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="startdate" class="form-control" placeholder="StartDate"/>
+                    </div>  
+			
+		    <div class="form-group">
+                        <input type="text" name="enddate" class="form-control" placeholder="EndDate"/>
+                    </div>         
+                    
+                </div>
+                <div class="footer">                                                               
+                    <input type="submit" class="btn bg-olive btn-block" value="Submit"></input>  
+                 
+                           
+                   
+                </div>
+            </form>
+
+            <div class="margin text-center">
+               
+            </div>
+            
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" type="text/javascript"></script>
+
+    </body>
+</html>
+
